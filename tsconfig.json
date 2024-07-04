@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", //para quer versão javascript vai compilar o typescript
+        "outDir": "./dist/js/", //diretório da compilação
+        "noEmitOnError": true,  //nao emita geração de arquivo caso erro
+    },
+    "include": [
+        "./src/**/*" //pasta onde vai procurar os arquivos typescript para compilar
+    ]
+}
